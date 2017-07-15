@@ -51,7 +51,7 @@ public class ReceipentHome extends AppCompatActivity {
         BarDataSet bardataset = new BarDataSet(entries, "Cells");
         BarData data = new BarData(labels, bardataset);
         barChart.setData(data);
-
+//will enable a new activity to raise a request 
         FloatingActionButton raiseReq = (FloatingActionButton)findViewById(R.id.fab);
         raiseReq.setOnClickListener(new View.OnClickListener() {
             @Override
