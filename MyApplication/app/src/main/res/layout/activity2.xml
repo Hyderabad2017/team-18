@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <Button
+        android:id="@+id/button_donor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:background="#F44336"
+        android:text="DONOR" />
+
+    <Button
+        android:id="@+id/button_recepient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="-87dp"
+        android:background="#F44336"
+        android:text="RECEPIENT" />
+    <Button
+        android:id="@+id/button_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="-85dp"
+        android:background="#F44336"
+        android:text="ADMIN" />
+</LinearLayout>
