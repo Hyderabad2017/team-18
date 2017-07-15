@@ -29,7 +29,8 @@
         <activity
             android:name=".ReceipentHome"
             android:label="@string/title_activity_receipent_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RegistrationDonor"></activity>
     </application>
 
 </manifest>

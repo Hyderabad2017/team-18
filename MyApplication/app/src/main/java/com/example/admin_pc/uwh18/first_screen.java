@@ -1,4 +1,4 @@
-package com.example.admin_pc.uwh18.mainactivity;
+package com.example.admin_pc.uwh18;
 
 import android.support.v7.app.AppCompatActivity;
 
@@ -23,7 +23,7 @@ public class first_screen extends AppCompatActivity {
         Button next = (Button) findViewById(R.id.button_donor);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), R.id.activity_registration_donor);
+                Intent myIntent = new Intent(view.getContext(), RegistrationDonor.class);
                 startActivityForResult(myIntent, 0);
             }
 
