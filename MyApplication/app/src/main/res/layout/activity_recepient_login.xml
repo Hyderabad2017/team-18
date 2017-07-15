@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:visibility="gone" />
-
+<!-- Enables scroll view and autocomplete textview-->
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
