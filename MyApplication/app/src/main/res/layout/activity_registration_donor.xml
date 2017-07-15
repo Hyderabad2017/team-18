@@ -27,8 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
-                <AutoCompleteTextView
+                <!--Text field requesting the full name of the donor-->
+                <AutoCompleteTextView       
                     android:id="@+id/full_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -42,8 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
-                <AutoCompleteTextView
+            <!--Text field requesting the mobile number of the donor-->
+                <AutoCompleteTextView       
                     android:id="@+id/mobile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -57,8 +57,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
-                <AutoCompleteTextView
+            <!--Text field requesting the email-id of the donor i.e the username-->
+                <AutoCompleteTextView   
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -73,8 +73,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
-                <EditText
+            <!--Text field requesting password to secure the donor account-->
+                <EditText       
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -91,25 +91,28 @@
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
+                <!--Text requesting the gender of the donor-->
+                <TextView       
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Gender:"
                     android:paddingRight="16dp"/>
-
-                <RadioGroup
+                
+                <!--Group of radio buttons to identify the gender of the donor-->
+                <RadioGroup                         
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <RadioButton
+                    <!--Radio button represting male gender-->
+                    <RadioButton        
                         android:id="@+id/radio_male"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Male"/>
 
-
-                    <RadioButton
+                    <!--Radio button representing female gender-->
+                    <RadioButton                               
                         android:id="@+id/radio_female"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -123,8 +126,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
-                <AutoCompleteTextView
+                <!--Text field requesting the age of the donor-->
+                <AutoCompleteTextView       
                     android:id="@+id/age"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -139,7 +142,7 @@
                 android:layout_height="wrap_content">
 
 
-                <AutoCompleteTextView
+                <AutoCompleteTextView       <!--Text field requesting the weight of the donor-->
                     android:id="@+id/weight"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -150,7 +153,7 @@
             </android.support.design.widget.TextInputLayout>
 
 
-            <Button
+            <Button     <!--Button to confirm registration of a donor-->
                 android:id="@+id/email_sign_in_button"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
