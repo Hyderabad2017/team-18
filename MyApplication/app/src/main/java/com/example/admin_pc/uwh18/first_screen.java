@@ -23,8 +23,8 @@ public class first_screen extends AppCompatActivity {
         Button next = (Button) findViewById(R.id.button_donor);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), RegistrationDonor.class);
-                startActivityForResult(myIntent, 0);
+                Intent myIntent = new Intent(view.getContext(), LoginActivity.class);
+                startActivityForResult(myIntent,0);
             }
 
         });

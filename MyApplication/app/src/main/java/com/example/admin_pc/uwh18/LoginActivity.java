@@ -61,6 +61,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+    private Button mSignUp;
 
     private static final String[] DUMMY_CREDENTIALS = new String[] {
             "foo@example.com:hello", "bar@example.com:world" };
@@ -69,6 +70,17 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        //Go to sign up page
+        mSignUp = (Button)findViewById(R.id.sign_up);
+        mSignUp.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(),RegistrationDonor.class);
+                startActivity(intent);
+            }
+        });
+
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
