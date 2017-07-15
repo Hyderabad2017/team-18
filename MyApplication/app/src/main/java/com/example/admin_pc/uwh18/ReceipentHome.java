@@ -27,9 +27,10 @@ public class ReceipentHome extends AppCompatActivity {
         setContentView(R.layout.activity_receipent_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+//display the updated units of blood through a bar chart visualisation
         BarChart barChart = (BarChart) findViewById(R.id.barchart);
         ArrayList<String> labels = new ArrayList<String>();
+        // specifying the types of blood that are to be tracked by the recipient institutions
         labels.add("A+");
         labels.add("B+");
         labels.add("AB+");
