@@ -357,7 +357,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         }
 
-        @Override
+        @Override //in the exceptional case
         protected void onCancelled() {
             mAuthTask = null;
             showProgress(false);
