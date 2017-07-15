@@ -269,7 +269,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 // a primary email address if the user hasn't specified one.
                 ContactsContract.Contacts.Data.IS_PRIMARY + " DESC");
     }
-
+//method to notify onLoadFinished
     @Override
     public void onLoadFinished(Loader<Cursor> cursorLoader, Cursor cursor) {
         List<String> emails = new ArrayList<>();
@@ -343,7 +343,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // TODO: register the new account here.
             return true;
         }
-
+//To handle errors after execute
         @Override
         protected void onPostExecute(final Boolean success) {
             mAuthTask = null;
