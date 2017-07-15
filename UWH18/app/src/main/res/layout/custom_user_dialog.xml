@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp">
+
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="Camp Name"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:padding="5dp"/>
+
+
+        <ImageView
+            android:id="@+id/ivProfilePic"
+            android:layout_width="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="120dp" />
+
+        <LinearLayout
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+
+
+
+            <TextView
+                android:id="@+id/tvCall"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:padding="10dp"
+                android:text=" This camp provides employees to donate blood and make a difference\n Location: Jubilee Hills\n Date: 21/8/17
+                "
+                android:gravity="center"
+                android:background="#F44336"
+                android:textColor="#000"
+                android:textSize="18sp"
+                />
+
+            <View
+                android:layout_height="1dp"
+                android:layout_width="0dp"
+                android:layout_weight="0.01"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:text="REGISTER"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/regcamp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
