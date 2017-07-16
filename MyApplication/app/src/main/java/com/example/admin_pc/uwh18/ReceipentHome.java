@@ -27,9 +27,10 @@ public class ReceipentHome extends AppCompatActivity {
         setContentView(R.layout.activity_receipent_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+//display the updated units of blood through a bar chart visualisation
         BarChart barChart = (BarChart) findViewById(R.id.barchart);
         ArrayList<String> labels = new ArrayList<String>();
+        // specifying the types of blood that are to be tracked by the recipient institutions
         labels.add("A+");
         labels.add("B+");
         labels.add("AB+");
@@ -50,14 +51,14 @@ public class ReceipentHome extends AppCompatActivity {
         BarDataSet bardataset = new BarDataSet(entries, "Cells");
         BarData data = new BarData(labels, bardataset);
         barChart.setData(data);
-
+//will enable a new activity to raise a request 
         FloatingActionButton raiseReq = (FloatingActionButton)findViewById(R.id.fab);
         raiseReq.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AlertDialog alertDialog = new AlertDialog.Builder(view.getContext()).create(); //Read Update
                 alertDialog.setTitle("hi");
-                alertDialog.setMessage("this is my app");
+                alertDialog.setMessage("This is United Way Hyderabad");
                 final TextInputEditText Date = new TextInputEditText(view.getContext());
                 alertDialog.show();
             }

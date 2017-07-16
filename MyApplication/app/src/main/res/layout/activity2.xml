@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     >
 
-    <Button
+    <Button     <!--a button allowing donor to sign-in or sign-up-->
         android:id="@+id/button_donor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,7 +13,7 @@
         android:background="#F44336"
         android:text="DONOR" />
 
-    <Button
+    <Button     <!---a button allowing registered receipient institution to sign in--->
         android:id="@+id/button_recepient"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,7 +21,8 @@
         android:layout_marginLeft="-87dp"
         android:background="#F44336"
         android:text="RECEPIENT" />
-    <Button
+    
+    <Button     <!--a buttom allowing the admin to sign-in-->
         android:id="@+id/button_admin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

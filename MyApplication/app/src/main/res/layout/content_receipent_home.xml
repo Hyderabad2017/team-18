@@ -7,7 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.admin_pc.uwh18.ReceipentHome"
     tools:showIn="@layout/activity_receipent_home">
-    <com.github.mikephil.charting.charts.BarChart
+    <com.github.mikephil.charting.charts.BarChart   <!--Bar chart representing the units of blood that an institution has-->
         android:id="@+id/barchart"
         android:layout_width="344dp"
         android:layout_height="300dp"

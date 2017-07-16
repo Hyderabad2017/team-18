@@ -14,7 +14,7 @@ public class RegistrationDonor extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_donor);
-
+//registration through email and password for donor sign in
         mRegister  = (Button)findViewById(R.id.email_sign_in_button);
         mRegister.setOnClickListener(new View.OnClickListener() {
             @Override
