@@ -52,15 +52,7 @@ public class ReceipentHome extends AppCompatActivity {
         BarData data = new BarData(labels, bardataset);
         barChart.setData(data);
 //will enable a new activity to raise a request 
-        FloatingActionButton raiseReq = (FloatingActionButton)findViewById(R.id.fab);
-        raiseReq.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                AlertDialog alertDialog = new AlertDialog.Builder(view.getContext()).create(); //Read Update
-                alertDialog.setTitle("hi");
-                alertDialog.setMessage("this is my app");
-                final TextInputEditText Date = new TextInputEditText(view.getContext());
-                alertDialog.show();
+        
             }
         });
     }
